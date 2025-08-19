@@ -84,6 +84,7 @@ POST /bfhl
 📥 Request Body
 {
   "data": ["A", "b", "3", "9", "z"],
+  
   "file_b64": "base64encodedstring..."
 }
 
@@ -91,14 +92,23 @@ POST /bfhl
 
 {
   "is_success": true,
+  
   "user_id": "john_doe_17091999",
+  
   "email": "john.doe@example.com",
+  
   "roll_number": "AB123",
+  
   "numbers": ["3", "9"],
+  
   "alphabets": ["A", "b", "z"],
+  
   "highest_lowercase_alphabet": ["z"],
+  
   "is_prime_found": true,
+  
   "file_valid": true,
+  
   "file_mime_type": "image/png",
   "file_size_kb": "12.5"
 }
