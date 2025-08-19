@@ -73,6 +73,7 @@ GET /bfhl → Returns an operation code for testing.
 GET /bfhl
 
 ✅ Response
+
     {
       "operation_code": 1
     }
@@ -82,6 +83,7 @@ GET /bfhl
 POST /bfhl
 
 📥 Request Body
+
     {
       "data": ["A", "b", "3", "9", "z"],
       
